@@ -6,6 +6,7 @@ Como instalar e configurar.
 
 ### Instalando dependências
 
+##### Old style
 ```
 cd /path/backupdb_storage
 composer install
@@ -14,6 +15,7 @@ composer install
 ### Configurando projeto
 Acesse o arquivo backupDB.sh e insira os seus dados abaixo:
 
+##### Old style
 ```
 backup_parent_dir="seu_diretorio"
 mysql_user="seu_user"
@@ -22,6 +24,7 @@ mysql_password="sua_senha"
 
 No arquivo transferStorage.php, você deve adicionar:
 
+##### Old style
 ```
 $files = glob('seu_diretorio'); // get all file names
 $bucket_name = "bucket_name";
